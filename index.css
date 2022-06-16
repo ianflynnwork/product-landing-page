@@ -1,0 +1,110 @@
+root {
+    font-size: 62.5%;
+  }
+  
+  @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped&family=Ubuntu:wght@300&display=swap");
+  
+  body {
+    padding-top: 7rem;
+    margin: 0;
+    font-family: "IBM Plex Sans Thai Looped", sans-serif;
+    background: #fdffcd;
+  }
+  ul {
+    display: flex;
+    flex-direction: row;
+  }
+  li {
+    list-style: none;
+    margin: 5px;
+  }
+  a {
+    text-decoration: none;
+    font-size: 1.6rem;
+  }
+  a:link {
+    color: #ff9867;
+  }
+  a:visited {
+    color: #ff9867;
+  }
+  a:hover {
+    color: #ffbf87;
+  }
+  a:active {
+    color: #ff4545;
+  }
+  #header {
+    background-color: #e0ffcd;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 6rem;
+    z-index: 99;
+  }
+  @media (max-width: 800px) {
+    a {
+      font-size: 1.2rem;
+    }
+    #header-img {
+      height: 5rem;
+    }
+  }
+  @media (max-width: 600px) {
+    header {
+      flex-wrap: wrap;
+      max-height: 6rem;
+    }
+    ul {
+      display: flex;
+      flex-direction: row;
+    }
+    #header-img {
+      height: 3rem;
+    }
+  }
+  #header-img {
+    max-height: 6rem;
+  }
+  #synth-img {
+    width: 60%;
+    padding-top: 0.5rem;
+    filter: grayscale(50%);
+  }
+  
+  #everything-but-header {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    max-width: 1200px;
+    margin: auto;
+  }
+  #home {
+    background: #fdffcd;
+    width: 90%;
+    margin: auto;
+  }
+  #sound {
+    background: #ffebbb;
+    width: 90%;
+    margin: auto;
+  }
+  #features {
+    background: #ffcab0;
+    width: 90%;
+    margin: auto;
+  }
+  #specifications {
+    background: #ffebbb;
+    width: 90%;
+    margin: auto;
+  }
+  #newsletter {
+    background: #fdffcd;
+    width: 90%;
+    margin: auto;
+  }
+  
